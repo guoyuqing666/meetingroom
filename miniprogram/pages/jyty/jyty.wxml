@@ -1,0 +1,11 @@
+<cu-custom bgColor="bg-gradual-blue" isBack='{{false}}'>
+  <view slot="content">同业门户</view>
+</cu-custom>
+
+
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-blue margin-tb-sm lg" bindtap="loginQuestion">一、同业门户登录问题指导手册</button>
+</view>
+
+<view class="text-gray copytight">Copyright © gyq 2021 Theme by ColorUI</view>

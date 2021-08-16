@@ -86,9 +86,6 @@ Page({
         content: (Date.now() - d) + '',
       })
     }).catch(err => {
-      console.log( err)
-      console.log( JSON.stringify(err))
-      console.error( JSON.stringify(err))
       wx.showModal({
         title: 'fail',
         content: err + '',

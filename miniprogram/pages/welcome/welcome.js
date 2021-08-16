@@ -126,7 +126,17 @@ Page({
       this.setData({
         hide: false
       })
-    } else {
+    } else if(this.data.code=='1'){
+      this.setData({
+        hide:false
+      },function(){
+        wx.reLaunch({ //有相关注册数据，跳转到首页
+          url: '../jyty/jyty',
+        })
+      })
+
+
+    }else{
       wx.showToast({
         title: '企业代码错误！',
         icon: 'none',

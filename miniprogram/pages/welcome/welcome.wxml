@@ -56,7 +56,7 @@
 <view class="bg-white judge" wx:if="{{hide}}">
   <view class='padding bg-white'>
     <view class="cu-form-group margin-tb bg-olive light radius text-right">
-      <view class="title">输入您所在的楼层</view>
+      <view class="title">请输入 1-同业门户7-会议室预定</view>
       <input type="text" bindinput="judgeCode" placeholder="" data-unit="code" value="{{code}}"></input>
     </view>
 
