@@ -134,9 +134,21 @@ Page({
           url: '../jyty/jyty',
         })
       })
+    }else if(this.data.code=='2'){
+      this.setData({
+        hide:false
+      },function(){
+        wx.reLaunch({ //有相关注册数据，跳转到首页
+          url: '../rkpc/rkpc',
+        })
+      })
 
 
-    }else{
+    }
+    
+    
+    
+    else{
       wx.showToast({
         title: '企业代码错误！',
         icon: 'none',

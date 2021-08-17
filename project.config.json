@@ -103,6 +103,12 @@
           "name": "jyty",
           "pathName": "pages/jyty/jyty",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "rkpc",
+          "pathName": "pages/rkpc/rkpc",
+          "scene": null
         }
       ]
     }

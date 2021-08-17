@@ -56,10 +56,11 @@
 <view class="bg-white judge" wx:if="{{hide}}">
   <view class='padding bg-white'>
     <view class="cu-form-group margin-tb bg-olive light radius text-right">
-      <view class="title">请输入 1-同业门户7-会议室预定</view>
+      <view class="title"></view>
       <input type="text" bindinput="judgeCode" placeholder="" data-unit="code" value="{{code}}"></input>
     </view>
-
+    <view class="title">请输入 1-同业门户 2-软开拼车 7-会议室预定</view>
+    
     <view class="box margin-top-xl justify-center flex">
       <button class="cu-btn bg-blue  btn round lg" bindtap='goOrder'>确定</button>
     </view>
