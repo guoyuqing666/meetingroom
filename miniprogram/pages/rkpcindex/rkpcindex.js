@@ -1,13 +1,12 @@
-// pages/rkpc/rkpc.js
+// pages/rkpcindex/rkpcindex.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    TabCur: 0,
-    scrollLeft:0,
     PageCur: 'basics'
+
   },
 
   /**
@@ -65,11 +64,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  tabSelect(e) {
+  NavChange(e) {
     this.setData({
-      TabCur: e.currentTarget.dataset.id,
-      scrollLeft: (e.currentTarget.dataset.id-1)*60
+      PageCur: e.currentTarget.dataset.cur
     })
   },
-
 })

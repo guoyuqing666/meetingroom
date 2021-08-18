@@ -109,6 +109,30 @@
           "name": "rkpc",
           "pathName": "pages/rkpc/rkpc",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "rkpcindex",
+          "pathName": "pages/rkpcindex/rkpcindex",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "rkpcfb",
+          "pathName": "pages/rkpcfb/rkpcfb",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "rkpcxg",
+          "pathName": "pages/rkpcxg/rkpcxg",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "rkpcwd",
+          "pathName": "pages/rkpcwd/rkpcwd",
+          "scene": null
         }
       ]
     }

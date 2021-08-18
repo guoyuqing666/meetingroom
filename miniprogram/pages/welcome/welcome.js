@@ -139,7 +139,7 @@ Page({
         hide:false
       },function(){
         wx.reLaunch({ //有相关注册数据，跳转到首页
-          url: '../rkpc/rkpc',
+          url: '../rkpcindex/rkpcindex',
         })
       })
 

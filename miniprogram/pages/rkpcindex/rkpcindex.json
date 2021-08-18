@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "basics": "/pages/rkpc/rkpc",
+    "component": "/pages/rkpcfb/rkpcfb",
+    "plugin": "/pages/rkpcxg/rkpcxg",
+    "about": "/pages/rkpcwd/rkpcwd"
+  }
+}

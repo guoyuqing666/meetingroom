@@ -1,13 +1,14 @@
-// pages/rkpc/rkpc.js
+// pages/rkpcfb/rkpcfb.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    TabCur: 0,
+    time: '12:01',
+    date: '2021-08-18',
+    TabCur: 1,
     scrollLeft:0,
-    PageCur: 'basics'
   },
 
   /**
@@ -65,11 +66,20 @@ Page({
   onShareAppMessage: function () {
 
   },
+  TimeChange(e) {
+    this.setData({
+      time: e.detail.value
+    })
+  },
+  DateChange(e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
   tabSelect(e) {
     this.setData({
       TabCur: e.currentTarget.dataset.id,
       scrollLeft: (e.currentTarget.dataset.id-1)*60
     })
   },
-
 })

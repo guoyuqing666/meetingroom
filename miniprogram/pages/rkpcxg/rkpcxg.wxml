@@ -1,0 +1,29 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+  <view slot="backText">返回</view>
+  <view slot="content">站内信</view>
+</cu-custom>
+<view class="cu-timeline">
+  <view class="cu-time">今天</view>
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-green shadow-blur">
+      <text>10:40</text> 车主已关闭拼车通道，请联系车主618232询问！
+    </view>
+  </view>
+  <view class="cu-item text-red cuIcon-attentionforbidfill">
+    <view class="content bg-red shadow-blur">
+      <text>10:30</text> 沈梦瑶加入了您的拼车！
+    </view>
+  </view>
+  <view class="cu-item text-grey cuIcon-evaluate_fill">
+    <view class="content bg-grey shadow-blur">
+      <text>10:04</text> 张昕退出了您的拼车！
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-blue content">
+      <text>10:02</text> 张昕加入了您的拼车！
+    </view>
+
+  </view>
+</view>
+

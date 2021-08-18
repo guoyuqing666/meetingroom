@@ -1,13 +1,24 @@
-// pages/rkpc/rkpc.js
+// pages/rkpcwd/rkpcwd.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    TabCur: 0,
-    scrollLeft:0,
-    PageCur: 'basics'
+    elements:[
+      {
+        title: '我的发布',
+        name: 'wdfb',
+        icon: 'like',
+        color: 'blue'
+      },
+      {
+        title: '我的拼车',
+        name: 'wdpc',
+        icon: 'settings',
+        color: 'cyan'
+      }
+    ]
   },
 
   /**
@@ -64,12 +75,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  tabSelect(e) {
-    this.setData({
-      TabCur: e.currentTarget.dataset.id,
-      scrollLeft: (e.currentTarget.dataset.id-1)*60
-    })
-  },
-
+  }
 })
